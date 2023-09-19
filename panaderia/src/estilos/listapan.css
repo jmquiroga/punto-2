@@ -1,0 +1,44 @@
+body{
+  width: 100vw;
+    height: 100vh;
+    
+    background-image: url(../assets/R.jfif) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+.imgPan{
+    height: 100px;
+    width: 100px;
+}
+/* Estilos para el contenedor de la cuadrícula */
+.container {
+    margin-top: 20px;
+    border: 30px black;
+  }
+  
+  /* Estilos para cada tarjeta de producto */
+  .card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para la imagen del producto */
+  .card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Estilos para el título del producto */
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  /* Estilos para el texto del valor */
+  .card-text {
+    font-size: 1rem;
+    color: #777;
+  }
+  
